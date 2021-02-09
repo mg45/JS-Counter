@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 2% 4%;
+    border: 1px solid #000;
+    max-width: 500px;
+    text-align: center;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.operation-btns-row{
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+
+.column {
+    flex: 50%;
+}
+
+#result {
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 14px 20px;
+}
+
